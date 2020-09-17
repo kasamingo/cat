@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title></title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="copyright" content="Shiseido Co., Ltd. All rights reserved." />
+<meta name="author" content="Shiseido Co., Ltd." />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="index" href="http://www.shiseido.co.jp/" />
+<link rel="stylesheet" type="text/css" href="/shared/static/css/import.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/shared/static/css/print.css" media="print" />
+<script type="text/javascript" src="/shared/static/js/jquery.js"></script>
+<script type="text/javascript" src="/shared/static/js/common.js"></script>
+<script type="text/javascript" src="/shared/gfs/js/gfsCheckCookie.js"></script>
+
+<script>
+    var head = document.getElementsByTagName("head")[0];
+	if(gfsCheckCookie('swfg00_baum_site', 'baum')) {
+
+        var css = document.createElement("link");
+        css.rel = "stylesheet";
+        css.type = "text/css";
+        css.href = "/baum/shared/css/style.css";
+        head.appendChild(css);
+
+        var css1 = document.createElement("link");
+        css1.rel = "stylesheet";
+        css1.type = "text/css";
+        css1.href = "/baum/shared/css/import.css";
+        head.appendChild(css1);
+
+        var css2 = document.createElement("link");
+        css2.rel = "stylesheet";
+        css2.type = "text/css";
+        css2.href = "/baum/shared/css/baum-header.css";
+        head.appendChild(css2);
+
+        var css3 = document.createElement("link");
+        css3.rel = "stylesheet";
+        css3.type = "text/css";
+        css3.href = "/baum/shared/css/baum-footer.css";
+        head.appendChild(css3);
+
+        var css4 = document.createElement("link");
+        css4.rel = "stylesheet";
+        css4.type = "text/css";
+        css4.href = "/baum/shared/css/print.css";
+        head.appendChild(css4);
+
+        var css5 = document.createElement("link");
+        css5.rel = "stylesheet";
+        css5.type = "text/css";
+        css5.href = "/baum/shared/css/baum-error.css";
+        head.appendChild(css5);
+
+        var js = document.createElement("script");
+        js.type = "text/javascript";
+        js.src = "/baum/shared/js/jquery.js";
+        head.appendChild(js);
+
+        var js1 = document.createElement("script");
+        js1.type = "text/javascript";
+        js1.src = "/baum/shared/js/common.js";
+        head.appendChild(js1);
+
+  	} else if(gfsCheckCookie('swfg07_gfs_site', 'GFS')) {
+
+        var css6 = document.createElement("link");
+        css6.rel = "stylesheet";
+        css6.type = "text/css6";
+        css6.href = "/shared/static/css/import.css";
+        head.appendChild(css6);
+
+        var css7 = document.createElement("link");
+        css7.rel = "stylesheet";
+        css7.type = "text/css7";
+        css7.href = "/shared/static/css/print.css";
+        head.appendChild(css7);
+
+        var js2 = document.createElement("script");
+        js.type = "text/javascript";
+        js.src = "/shared/static/js/common.js";
+        head.appendChild(js2);
+
+        var js3 = document.createElement("script");
+        js3.type = "text/javascript";
+        js3.src = "/shared/static/js/common.js";
+        head.appendChild(js3);
+
+	} else {
+
+        var css8 = document.createElement("link");
+        css8.rel = "stylesheet";
+        css8.type = "text/css8";
+        css8.href = "/shared/static/css/import.css";
+        head.appendChild(css8);
+
+        var css9 = document.createElement("link");
+        css9.rel = "stylesheet";
+        css9.type = "text/css9";
+        css9.href = "/shared/static/css/print.css";
+        head.appendChild(css9);
+
+        var js4 = document.createElement("script");
+        js4.type = "text/javascript";
+        js4.src = "/shared/static/js/common.js";
+        head.appendChild(js4);
+
+        var js5 = document.createElement("script");
+        js5.type = "text/javascript";
+        js5.src = "/shared/static/js/common.js";
+        head.appendChild(js5);
+	}
+</script>
+</head>
+
+<body onload="func()">
+<script>
+  function func() {
+	if(gfsCheckCookie('swfg00_baum_site', 'baum')) {
+	  document.getElementById("topicUnit").style.display = "none";
+  	} else if(gfsCheckCookie('swfg07_gfs_site', 'GFS')) {
+	  document.getElementById("topicUnit").style.display = "none";
+	  document.getElementsByClassName("roundGray")[0].style.display = "none";
+	}
+	}
+(function(){
+	if(gfsCheckCookie('swfg00_baum_site', 'baum')) {
+		document.writeln('<script type="text/javascript" src="/baum/shared/inc/header.js"></sc' + 'ript>');
+	} else if(gfsCheckCookie('swfg07_gfs_site', 'GFS')) {
+		document.writeln('<script type="text/javascript" src="/shared/gfs/js/header.js"></sc' + 'ript>');
+	} else {
+	　　document.writeln('<script type="text/javascript" src="/shared/inc/header.js"></sc' + 'ript>');
+	}
+	})();
+</script>
+<div id="body">
+	<div class="width480Center">
+
+<script>
+(function(){
+	if(gfsCheckCookie('swfg00_baum_site', 'baum')) {
+		document.writeln('<h1 class="error textCenter"><span>お探しのページが<br />みつかりませんでした</span></h1>');
+		document.writeln('<p class="textCenter">たいへん申し訳ございませんが、<br />お客さまのアクセスしたページ（URL）を<br />見つけることができませんでした。</p>');
+	} else if(gfsCheckCookie('swfg07_gfs_site', 'GFS')) {
+		document.writeln('<h1 class="error textCenter"><span>お探しのページがみつかりませんでした。</span></h1>');
+		document.writeln('<p class="pointColorB leadTextA mt15">たいへん申し訳ございませんが、お客さまのアクセスした<br />ページ（URL）を見つけることができませんでした。</p>');
+	} else {
+		document.writeln('<h1 class="error textCenter"><span>お探しのページがみつかりませんでした。</span></h1>');
+		document.writeln('<p class="pointColorB leadTextA mt15">たいへん申し訳ございませんが、お客さまのアクセスした<br />ページ（URL）を見つけることができませんでした。</p>');
+	}
+	})();
+</script>
+
+		<div class="roundPinkBorder pl10 pr00">
+			<ul class="default mt00">
+				<li class="mt05">入力したURLが正しいかどうかご確認ください。</li>
+				<li class="mt05">ほかのウェブサイトからのリンクが正しくない場合、ページを表示することができません。</li>
+				<li class="mt05">お探しのページは移動または削除された可能性があります。</li>
+			</ul>
+		</div>
+
+<script>
+(function(){
+	if(!gfsCheckCookie('swfg00_baum_site', 'baum')) {
+		document.writeln('<div class="roundPinkBorder">');
+		document.writeln('<p class="errorSubTitle">問題を解決する方法</p>');
+		document.writeln('<p class="mt10">次の方法をお試しいただくことで、問題が解決する可能性があります。</p>');
+		document.writeln('<ul class="default">');
+		document.writeln('<li>「サイト内検索」をご利用ください。<br />画面右上の入力ボックスから入力し、「検索」ボタンで検索を実行できます。</li>');
+		document.writeln('<li class="mt05">目的のコンテンツがわからない際には、「サイトマップ」をご利用ください。</li>');
+		document.writeln('</ul>');
+		document.writeln('</div>');
+		document.writeln('<div class="roundGray">');
+		document.writeln('<div class="buttonCenter">');
+		document.writeln('<p class="buttonGray"><button type="button" onclick="location.href=\'/sitemap.html\'"><span>サイトマップ</span></button></p>');
+		document.writeln('<p class="buttonGray"><button type="button" onclick="location.href=\'/wp/\'"><span>ワタシプラストップ</span></button></p>');
+		document.writeln('</div>');
+		document.writeln('</div>');
+	} else {
+		document.writeln('<div class="roundGray">');
+		document.writeln('<div class="buttonCenter">');
+		document.writeln('<p class="buttonGray"><button type="button" onclick="location.href=\'/baum/index.html\'"><span>BAUM オフィシャルサイトトップ</span></button></p>');
+		document.writeln('</div>');
+		document.writeln('</div>');
+	}
+	})();
+</script>
+	</div>
+</div>
+
+<div id="topicUnit" class="clearfix">
+<div id="topicPathArea">
+	<p class="topicPath"><a href="/">ホーム</a> &gt; <em>お探しのページがみつかりませんでした。</em></p>
+</div>
+</div>
+<script>
+(function(){
+	if(gfsCheckCookie('swfg00_baum_site', 'baum')) {
+		document.writeln('<script type="text/javascript" src="/baum/shared/inc/footer.js"></sc' + 'ript>');
+	} else if(gfsCheckCookie('swfg07_gfs_site', 'GFS')) {
+		document.writeln('<script type="text/javascript" src="/shared/gfs/js/footer.js"></sc' + 'ript>');
+	} else {
+		document.writeln('<script type="text/javascript" src="/shared/inc/footer.js"></sc' + 'ript>');
+	}
+	})();
+</script>
+</body>
+</html>

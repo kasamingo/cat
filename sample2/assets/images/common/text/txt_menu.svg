@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="6" viewBox="0 0 31 6">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 9px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: Georgia;
+        font-variant: small-caps;
+      }
+    </style>
+  </defs>
+  <text id="txt_menu.svg" class="cls-1" x="15.643" y="5.913"><tspan x="15.643">MENU</tspan></text>
+</svg>
